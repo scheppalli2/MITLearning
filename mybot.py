@@ -2,7 +2,7 @@ from dotenv import load_dotenv
 from openai import OpenAI
 import discord
 import os
-
+## Import the OpenAI API key from the .env file
 load_dotenv()
 api_key = os.getenv("OPENAI_API_KEY") or os.getenv("OPENAI_KEY")
 DISCORD_TOKEN = os.getenv("TOKEN")
